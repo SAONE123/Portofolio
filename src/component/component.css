@@ -319,7 +319,7 @@ ul a {
     }
 }
 
-@media screen and (max-height:1800px) {
+@media screen and (min-height:1800px) {
     .slideshow-container {
         img {
             max-width: 100%;
