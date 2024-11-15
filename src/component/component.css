@@ -265,7 +265,6 @@ ul a {
         opacity: 0.4;
     }
 
-
 }
 
 .material-symbols-outlined {
@@ -328,9 +327,34 @@ ul a {
             height: 26vh;
         }
     }
+
+    .absolute.pos.card {
+        width: max-content;
+        display: grid;
+        gap: 4vw;
+        margin: 10vh 25vw;
+        align-content: center;
+        height: max-content;
+    }
+
+    .card {
+        width: 50vw;
+        height: 43vh;
+
+        p,
+        a {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+
+    }
+
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
 
     ul a {
         font-size: 60%
@@ -402,4 +426,7 @@ ul a {
             z-index: -1;
         }
     }
+
+
+
 }
