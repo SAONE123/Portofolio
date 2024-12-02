@@ -1,5 +1,4 @@
 import Slides from "./Slides";
-import Navbar from "./navbar";
 var dummydata = [
   {
     id: 1,
@@ -26,15 +25,13 @@ var dummydata = [
     pdf: "/serti/Webdev.pdf",
   },
 ];
-function About() {
+const Sertive = () => {
   return (
     <>
-      <Navbar />
       <div>
         <Slides slides={dummydata} />
       </div>
     </>
   );
-}
-
-export default About;
+};
+export default Sertive;

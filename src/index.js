@@ -4,8 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
-import About from "./component/About";
-import Project from "./component/project";
+import Styles from "./NewDisplay/component.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
@@ -13,8 +12,6 @@ root.render(
       <Router>
         <Routes>
           <Route path="/" Component={App} />
-          <Route path="/About" Component={About} />
-          <Route path="/Project" Component={Project} />
         </Routes>
       </Router>
     </div>

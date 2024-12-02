@@ -1,13 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./component/navbar";
-import FirstPage from "./component/firstPage";
+import Mainpages from "./NewDisplay/MainPages";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <FirstPage />
+      <Mainpages />
     </>
   );
 }
