@@ -1,46 +1,42 @@
 export const Logos = [
   {
-    key: 1,
+    key: "CSS",
     img: "https://img.icons8.com/plasticine/100/css3.png",
   },
   {
-    key: 2,
+    key: "Html",
     img: "https://img.icons8.com/color/48/html-5--v1.png",
   },
   {
-    key: 3,
+    key: "React",
     img: "https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/100/external-react-social-media-tanah-basah-basic-outline-tanah-basah.png",
   },
   {
-    key: 4,
+    key: "Next",
     img: "https://img.icons8.com/color/48/nextjs.png",
   },
   {
-    key: 5,
+    key: "PHP",
     img: "https://img.icons8.com/ios/50/php-logo.png",
   },
   {
-    key: 6,
-    img: "https://img.icons8.com/fluency/48/my-sql.png",
-  },
-  {
-    key: 7,
+    key: "Mongo",
     img: "https://img.icons8.com/color/48/mongodb.png",
   },
   {
-    key: 8,
+    key: "Mysql",
     img: "https://img.icons8.com/color/100/mysql-logo.png",
   },
   {
-    key: 9,
+    key: "javaScript",
     img: "https://img.icons8.com/nolan/64/javascript-logo.png",
   },
   {
-    key: 10,
+    key: "Node",
     img: "https://img.icons8.com/color/48/nodejs.png",
   },
   {
-    key: 11,
+    key: "tailwind",
     img: "https://img.icons8.com/color/48/tailwindcss.png",
   },
 ];

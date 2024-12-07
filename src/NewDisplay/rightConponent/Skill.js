@@ -4,7 +4,7 @@ function Skill() {
     <>
       {Logos.map((data) => {
         return (
-          <div key={data.key} className="CONS">
+          <div key={data.key} className={`CONS ${data.key ? "visible" : ""}`}>
             <img src={data.img} alt="error" />
           </div>
         );

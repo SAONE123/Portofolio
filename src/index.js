@@ -3,8 +3,10 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import App from "./App";
+import Style from "./NewDisplay/responsive.css";
 import Styles from "./NewDisplay/component.css";
+import App from "./App";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>

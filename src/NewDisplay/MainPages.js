@@ -38,7 +38,11 @@ function Mainpages() {
 
   return (
     <>
-      <div className="Main ">
+      <div
+        className={`Main ${
+          skill || Certi || Projec || About ? "expanded" : "collapsed"
+        }`}
+      >
         <div className="Second">
           <div className="Left">
             <img className="LeftPhotos" src="./mypic.png" alt="my-photos" />
